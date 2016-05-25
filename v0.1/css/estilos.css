@@ -1,0 +1,48 @@
+/* A veces sale un espacio blanco debajo del navbar*/
+.navbar{
+    margin-bottom: 0;
+}
+
+.jumbotron{
+    background-color: #0174DF;
+    color: white;
+    padding: 20px 0;
+}
+
+/* CONFIGURANDO EL SECTION PRINCIPAL */
+
+.main_container{
+    /*margin: 20px 160px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left:10%;
+}
+
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+/* AQUI ARREGLO LOS PRODUCTOS QUE SE VEN*/
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img{
+    width: 100%;
+}
+
+.post .contenedor-botones{
+    width: 100%;
+}
+
+.menu-lateral{
+    margin-left: 75%;
+}
+
+.texto-footer{
+    margin-left: 10%;
+}
