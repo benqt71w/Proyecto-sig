@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrama formula="fk_%c" nombreAutor="Usuario" version="8" nombreProyecto="TiendaOnline">
+  <DataBase>2</DataBase>
+  <lista-item>
+    <item type="modelo-tabla" id="{60981691-cb39-45e9-81aa-8ac62f3fc6ba}">
+      <nombre>Usuarios</nombre>
+      <posicion>
+        <x>-423</x>
+        <y>44</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-tabla" id="{c9fbf3fd-01df-4b84-8b2c-ab3d17428a18}">
+      <nombre>Productos</nombre>
+      <posicion>
+        <x>129</x>
+        <y>61</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-tabla" id="{6a348262-02f7-4623-89a6-fbf55b6866a9}">
+      <nombre>Tienda</nombre>
+      <posicion>
+        <x>137</x>
+        <y>-72</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-tabla" id="{6f8600ad-7c6d-4a2a-a1b2-07881fd506a8}">
+      <nombre>Proveedores</nombre>
+      <posicion>
+        <x>-68</x>
+        <y>-62</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-tabla" id="{9fd006cb-4a23-4eef-9f73-d6b430d75ba9}">
+      <nombre>Usuarios</nombre>
+      <posicion>
+        <x>309</x>
+        <y>-65</y>
+      </posicion>
+      <lista-columnas/>
+    </item>
+    <item type="modelo-relacion" id="{c32e4642-79ef-4a21-b8b4-4561a7cedd34}">
+      <inicio>
+        <posicion>
+          <x>5</x>
+          <y>-47.21</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{6f8600ad-7c6d-4a2a-a1b2-07881fd506a8}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>137</x>
+          <y>-57.21</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{6a348262-02f7-4623-89a6-fbf55b6866a9}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{1c60d1cb-1560-45de-8a95-fa6219b1cc9c}">
+      <inicio>
+        <posicion>
+          <x>181</x>
+          <y>-57.21</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{6a348262-02f7-4623-89a6-fbf55b6866a9}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>309</x>
+          <y>-50.21</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{9fd006cb-4a23-4eef-9f73-d6b430d75ba9}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{cf6804c8-ae2e-4d15-9ea5-023d65a77437}">
+      <inicio>
+        <posicion>
+          <x>159</x>
+          <y>-42.42</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{6a348262-02f7-4623-89a6-fbf55b6866a9}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>159</x>
+          <y>61</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{c9fbf3fd-01df-4b84-8b2c-ab3d17428a18}</owner>
+      </final>
+    </item>
+  </lista-item>
+</diagrama>
